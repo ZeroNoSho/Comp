@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import "./App.css";
 import svg from "./5.png";
 import Home from "./Pages/Home";
@@ -13,7 +13,7 @@ import Media from "./Pages/Media";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/">
         <div>
           <nav id="navbar" className="navbar nav1 navbar-light navbar-expand-lg">
             <div className="container-fluid navcon">

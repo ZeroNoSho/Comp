@@ -46,7 +46,7 @@ function Laporan() {
                     {e}
                   </button>
                 </h2>
-                <div id={`flush-collapse${nama.id[i]}`} className="accordion-collapse collapse" aria-labelledby={`flush-heading${nama.id[i]}`} data-bs-parent="#accordionFlushExample">
+                <div id={`flush-collapse${nama.id[i]}`} className="accordion-collapsec kuro collapse" aria-labelledby={`flush-heading${nama.id[i]}`} data-bs-parent="#accordionFlushExample">
                   <div className="accordion-body">
                     <p style={{ fontSize: "14px", fontWeight: "400" }}>{e}</p>
                     <Swiper spaceBetween={10} slidesPerView={0}>

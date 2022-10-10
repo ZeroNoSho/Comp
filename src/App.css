@@ -469,9 +469,11 @@
 .cardrowNew {
   border-radius: 20px;
 }
-.show {
-  visibility: visible;
-  transform: translateX(-100%);
+.kuro{
+  background: transparent !important;
+}
+#flush-collapseOne{
+  background: transparent !important;
 }
 .ukuran {
   font-weight: 600;
